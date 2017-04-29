@@ -1,1 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background-color: white;
+}
+
+h1 {
+    color: #1670E6;
+    text-align: center;
+    font-family: Trebuchet MS;
+}
+
+h4 {
+	color: #1670E6;
+    text-align: center;
+    font-family: Trebuchet MS;
+}
+	
+h3 {
+	color: black;
+    text-align: center;
+    font-family: Trebuchet MS;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+p {
+    color: black;
+    font-family: Trebuchet MS;
+    font-size: 14px;
+    text-align: left;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+a {
+	color: blue;
+}
+
+	img {
+		display:block;
+	}
+
+</style>
+</head>
+<body>
+
+<h1>Advanced Composing Digital Media: Capstone Portfolio and Reflection</h1>
+
+<h4>Katie Osborne</h4>
+
+<hr style: color= #1670E6> </hr>
+
+<h3>A dataset that you manipulated or queried using Python</h3>
+
+<p>I used the <a href="https://github.com/bpb27/trump_tweet_data_archive">Trump Twitter Archive</a> to analyze the words Donald Trump uses in his tweets over time. The data comes from the website: <a href="http://www.trumptwitterarchive.com/"> http://www.trumptwitterarchive.com/</a> which has been compiled by Brendan Brown through a Twitter scraping code of his own creation. The tweets update into a JSON on github (linked above and also found in the "faq" section of the archive's website) which is what I used to do my analysis.</p>
+
+<p> <strong>How did your manipulation of the data change how an audience might interpret it?</strong></p>
+<p>Trump's tweets on their own are overwhelming in number (tens of thousands of tweets over ten+ years) so I wanted to make something that would analyze his language usage over the decade that he's been on Twitter and make it easy for people to see the changes that occurred. It's difficult to analyze someone's entire Twitter when it is as enormous as Trump's so my taking the data and turning it into word clouds by year broke that language down in a way that is understandable and comprehensive. If I had not manipulated the data in this way, it would be hard for an audience to interprete the meanings and patterns among Trump's word choices over time because there is such a huge volume of data and the JSON is difficult to read on its own. By putting it into Python though, I was able to break it down so that I could visualize the words used and make my findings more accessible to a general audience.</p>
+
+<h3>An example of how you made a choice related to visualization type</h3>
+
+<img src="trump2017.png">
+<p>I decided to make a word cloud because I thought it was the best way to look at word usage of so many different words all at once. Because the data was so enormous, I wanted to do something that would take all the data into consideration without being overwhelming. That led to me creating words clouds to show the changes while still being interesting and kind of funny (because Trump's hair).</p>
+
+<p><strong>If you could convert this visualization to something else (bar graph vs. scatter plot, etc.), what would you choose? How would might user experience change if you made this change?</strong></p>
+<p>If I were to change this visualization, I would probably make a scatter plot looking at his usage of a few key words over the years and put a line through the dots to show the changes. The expereince here would definitely be different because it no longer is analyzing the entire dataset but rather just looking at a few words. However, this could also be interesting because it would allow me to go more in-depth about Trump's word usage, like if i decided to look at a few "feeling" words or "angry" words.</p>
+
+<h3>An example of how you made a choice related to color, fonts, captions, scale, or other design elements</h3>
+
+
+<p><a href="https://kao43.github.io/synthesis-1-fork/">This</a> website shows the first visualization I made and even though it isn't exaclty what I was looking to do at the time (I couldn't figure out word clouds) I put a lot of thought into the design of the graph to make it interesting and easy to read. I wanted to make the colors red and blue, to contrast Obama to Trump, and picked the other colors on the page to complement those.</p>
+
+<p><strong>Discuss how you would change these design elements under different circumstances, especially in terms of your imagined audience. How would you revise for an expert on your topic, or for someone who knew nothing about your topic?</strong></p>
+
+<p>If I were revising for an expert on my topic, I would definitely make my page look more professional. Right now, it's kind of fun and a little flahsy because I wrote it for an audience that maybe doesn't know very much about Twitter or about Obama and Trump. I would change the colors to something more neutral since the blue titles and pink links are a little too flashy for something professional. I would also pick photos that are more presidential or show exaclty what I want, rather than some of the funny shots I put in (like Trump's hair). I think these changes would make the page look more researched and professional for an audience of experts.</p>
+
+<h3>An example of how you made a choice related to comparing one thing to another</h3>
+
+<p><a href="https://kao43.github.io/synthesis-2/">This</a> website is from my synthesis 2 assingment where I decided to compare each year of Donald Trump's tweets.</p>
+
+<p><strong>Why did you choose this particular comparison? Would the comparison be more effective with additional revisions? If so, what revisions?</strong></p>
+
+<p>I decided to make this comparison because I think it's interesting and I wanted to use all of the data I had so I could have a more complete picture. It's hard to judge someone based solely on what they post of Twitter so I wanted to do something that would use all that data in a way that was both relevant and interesting. Looking at Trump's twitter language over time showed what was most important to him each year which I think is interesting since he spends a lot of time posting what he thinks on Twitter. I don't think I would do any revisions to this comparison unless I decided to analyze the data in a different way like what I suggested above looking at certain words over time.</p>
+
+<h3>An example of something that frustrated you or took a larger amount of time than you would have liked</h3>
+
+<img src="finalgraph.png">
+<p>I made this graph using matplotlib in Python to try and analyze some word usages between Donald Trump and Barack Obama.</p>
+
+<p><strong>How did you finally overcome this obstacle, or when did you know it was time to move on? What did you learn, procedurally, from this obstacle?</strong></p>
+
+<p>This took me a ton of time and I feel like I don't have much to show for it. I really wanted to do something in matplotlib but was having a really hard time understanidng all the commands and how and when to use them. I spent hours and hours going through any and all of the tutorials I could find, looking up other people's code online, and trying to make the program do what I wanted. Even though the graph I came up with wasn't what I was originally going for, after I had spent multiple hours trying to figure out word clouds, I decided I should try to use my time to make something else. I eventually was able to figure it out by finding some code online showing double bar graphs and I thought that that could also work for the comparisons I wanted to do for synthesis 1. From all of this, I learned that with enough time I really can learn anything but that sometimes, you have to pick your battles and decide when it's time to try a different tactic to meet your needs.</p>
+
+<h3>An example of something you are particularly proud of</h3>
+
+<p>I already used my <a href="https://kao43.github.io/synthesis-2/">synthesis 2</a> assignment above for a different question but this is really what I am most proud of from this class.</p>
+
+<p><strong>Why does this example stick out in your mind? How might you adapt what you like about it for future work?</strong></p>
+
+<p>This example sticks out most to me because I see it as a continuation of my synthesis 1 assignment that gave me so much trouble and that I spent hours upon hours working on. My original goal was to make a word cloud and here, I was able to not only make multiple word clouds, but also create them in Python after wrangling with a JSON file and make them in the shape of Donald Trump's hair. For future work, I would probably go back to the dataset and look at other ways I could do text analysis because there is so much interesting information in there that I think would be really cool to visualize.</p>
+
+</body>
+</html>
 
