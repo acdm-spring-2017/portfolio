@@ -70,26 +70,25 @@ body {
   color: #232323;
   text-align: center;
 }
-h1 {
-  font-size: 60pt;
-  margin: 20px 0;
-  line-height: 40pt;
-}
+
 h2 {
   font-size: 24pt;
-  text-align: center;
+  text-align: left;
   margin: 30px 0;
   color: #232323;
+  line-height: 30pt;
 }
 p {
   margin: 20px 0;
 }
 a:link, a:active, a:visited {
-  color: #748a92;
+  color: #c26b00;
+  font-weight: bold;
   text-decoration: none;
+  font-size: 12pt;
 }
 a:hover {
-  color: #5a666a;
+  color: #764a00;
 }
 .leavethisheretoclear {
   clear: both;
