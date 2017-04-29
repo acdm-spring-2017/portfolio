@@ -1,2 +1,2 @@
-# portfolio
-blank repo for portfolio forks
+# Portfolio
+Image credit to [myself](http://www.mayaelaine.com/triptychs)
