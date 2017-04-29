@@ -1,0 +1,46 @@
+body {
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+	font-style: normal;
+	font-variant: normal;
+	margin: auto;
+	width: 80%;
+}
+a.project {
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+a.project:hover {
+    background-color: #900C3F;
+    color: white;
+    }
+h1 {
+    background-color: #900C3F;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    padding: 14px 16px;
+    color: white;
+    text-transform: uppercase;
+}
+h2 {
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 26.4px;
+	text-transform: uppercase;
+}
+h3 {
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 15.4px;
+	text-transform: uppercase;
+}
+p {
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
